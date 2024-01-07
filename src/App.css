@@ -1,0 +1,69 @@
+body {
+    padding: auto;
+    margin: auto;
+}
+
+.pokeimg {
+    float: right;
+    display: block;
+    height: 90vh;
+    width: 40vw;
+}
+
+.pokeprops{
+    text-align: center;
+    align-items: center;
+    font-size: 40pt;
+    font-family: 'Fligen';
+}
+
+.pokename {
+    text-align: center;
+    align-items: center;
+    font-size: 50pt;
+}
+
+.details {
+    position: relative;
+    margin: auto;
+}
+
+.pikachu {
+    display: inline-block;
+    width: 5vh;
+    height: 5vh;
+}
+
+.fadeStyle {
+    animation: fade-in 5s;
+  }
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: Fligen;
+    src: url(Fligen.otf);
+}
+
+@font-face {
+    font-family: 'Pokemon Hollow';
+    src: url("Pokemon Hollow.ttf");
+}
+
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url("Pokemon Solid.ttf");
+}
