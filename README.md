@@ -12,13 +12,18 @@ Files edited: index.js, App.js, App.css
 
 The <React.StrictMode> restrictions has been removed from index.js to prevent userEffect() re-rendering twice.
 
-The root document of the server is the default App.js file used by ReactJS.
-Imports:
-  import './App.css';
-  import NoPokemon from './no_pokemon.png';
-  import { Text , Image } from 'react-native';
-  import React, { useEffect, useState } from 'react';
+The root document of the server is the default App.js file used by ReactJS. 
 
+Imports:
+
+  import './App.css'; 
+  
+  import NoPokemon from './no_pokemon.png'; 
+  
+  import { Text , Image } from 'react-native'; 
+  
+  import React, { useEffect, useState } from 'react'; 
+  
   1. The App.css file contains the css styles and keyframes used in the webpage.
   2. The Text and Image React components have been used from react-native as margin and padding does not work with the default h1,h2,... and img tag in reactjs
      unless a seperate constructor is made for the component (which slows down the server).
