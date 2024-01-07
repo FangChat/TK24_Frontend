@@ -1,9 +1,13 @@
-#Frontend sample using ReactJS
-#BY: MOHAMED ABDULLAH FAHAD
+#Frontend sample using ReactJS 
 
-Framework Used: ReactJS
-Modules used: react, react-native, react-native-web, react-dom/client
-React app was created using cli: > npx create-react-app takshashila
+#BY: MOHAMED ABDULLAH FAHAD 
+
+Framework Used: ReactJS 
+
+Modules used: react, react-native, react-native-web, react-dom/client 
+
+React app was created using cli: > npx create-react-app takshashila 
+
 Files edited: index.js, App.js, App.css
 
 The <React.StrictMode> restrictions has been removed from index.js to prevent userEffect() re-rendering twice.
